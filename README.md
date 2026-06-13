@@ -8,10 +8,11 @@ Implementation of the word-guessing game "Wordle".
 The player tries to uncover a hidden 5-letter word against the computer using a graphical (Qt) interface.
 The game follows the rules of the original Wordle: a fixed-length hidden answer, up to six attempts, per-letter feedback after every guess, and an on-screen keyboard that tracks what has already been learned.
 
-!!Important!!
-The game accepts input in two ways:
+Important!
+The game accepts input in three ways:
 - If the player uses the physical keyboard, letter keys type into the active row, Enter submits the guess and Backspace deletes the last letter.
 - If the player uses the mouse, the on-screen QWERTY keyboard provides the same functionality through clickable keys (including ENTER and ⌫).
+- The player can also freely combine both — for example, typing letters on the physical keyboard and clicking ENTER on the on-screen keyboard (or vice versa) — and the game will behave identically.
 
 ## Game rules
 
